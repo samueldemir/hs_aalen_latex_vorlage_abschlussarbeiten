@@ -1,0 +1,87 @@
+\documentclass[]{scrreprt}
+
+\input{config/meta}
+
+\input{config/packages}
+
+\begin{document}	
+	
+	
+% ########################### START ######################################
+	% ### HERE GOES YOUR COVER, STATUTORY DECLARATION, ABSTRACT, FORWORD%#
+																		%#
+	\include{content/cover}												%#
+	\pagestyle{scrplain}												%#
+	\include{content/statutory_declaration}								%#	
+	\include{content/abstract}											%#
+	\include{content/foreword}											%#
+																		%#
+	% ### HERE ENDS YOUR COVER, STATUTORY DECLARATION, ABSTRACT ###		%#
+% ############################ END #######################################
+
+
+% ########################### START ######################################
+	% ### DONT TOUCH ###											    %#
+	% ### HERE GOES YOUR TOC, LSTFIG, LSTTBL, LSTLiST ###				%#
+																		%#
+	\pdfbookmark{Inhaltsverzeichnis}{chap:tableofcontent}				%#
+	\pagestyle{scrheadings}
+	\tableofcontents													%#
+	\input{config/headingconfig}										%#
+	\listoffigures														%#
+	\input{config/headingconfig}										%#
+	\listoftables														%#
+	\input{config/headingconfig}										%#
+	\lstlistoflistings													%#
+	\input{config/headingconfig}										%#
+																		%#
+	% ### HERE ENDS YOUR TOC, LSTFIG, LSTTBL, LSTLiST ###				%#
+	% ### DONT TOUCH ###												%#
+% ############################ END #######################################
+
+
+% ########################### START ######################################
+	% ### HERE GOES YOUR LSTLOA ###										%#
+																		%#
+	\include{content/list_of_abbreviations}								%#
+																		%#
+	% ### HERE GOES YOUR LSTLOA ###										%#
+% ############################ END #######################################
+
+
+% ########################### START ######################################
+	% ### HERE GOES YOUR CHAPTERS ###									%#
+																		%#
+	\include{content/chapters/[1]_chapter_one}							%#
+	\include{content/chapters/[2]_chapter_two}							%#
+																		%#
+	% ### HERE ENDS YOUR CHAPTERS ###									%#
+% ############################ END #######################################
+
+
+
+% ########################### START ######################################
+	% ### DONT TOUCH ###												%#
+	%\rohead is important otherwise it not works, 						%#
+	% because of default pagestyle from makeidx!						%#
+																		%#
+	\printbibliography													%#
+	\rohead{} 															%#
+	\printindex															%#
+																		%#
+	% ### DONT TOUCH ###												%#
+% ############################ END #######################################
+
+
+
+% ########################### START ######################################
+	% ### HERE GOES YOUR APPENDIX ###									%#
+																		%#
+	\include{content/appendix}											%#
+																		%#
+	% ### HERE ENDS YOUR APPENDIX ###									%#
+% ############################ END #######################################
+
+
+
+\end{document}
