@@ -16,7 +16,7 @@
 		Grundsätzlich ist diese Vorlage mit weiteren Dateien ausgegliedert um die Übersicht beizubehalten.  Anderenfalls müssten alle Codezeilen in eine Datei komprimiert werden und das macht bei Änderungen dann keinen Spaß mehr!
 		Daher liegt folgende Struktur zu Grunde:
 		\begin{itemize}[noitemsep]
-			\item main.tex
+			\item main.tex - (Startdatei)
 			\begin{itemize}[noitemsep]
 				\item config/meta.tex
 				\item config/packages.tex
@@ -32,7 +32,11 @@
 			\end{itemize}
 		\end{itemize}
 		Es wird empfohlen diese Struktur nicht zu verändern, um unerwünschte Fehler zu vermeiden. Die einzelnen Kapitel können natürlich einfach weiter eingebunden werden.	
-		
+	
+	\section{Kompilieren}
+		\label{sec:kompilieren}
+		\index{Kompielieren}
+		Um die richtige Output PDF (main.pdf) zu erstellen und damit alle Referenzen z.B. auch die des \enquote{bibtex} Paket (Literaturverzeichnis), zu setzen, muss in folgender Reihenfolge kompiliert werden: [PDFLaTeX, BibTeX, PDFLaTeX, PDFLaTeX] oder alternativ, falls texmaker in den Standardeinstellungen verwendet wird [F1, F11, F1, F1]
 		
 	\section{Bindekorrektur}
 		\label{sec:bindekorrektur}
