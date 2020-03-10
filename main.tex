@@ -77,9 +77,12 @@
 
 % ########################### START ######################################
 	% ### DONT TOUCH ###												%#
+																		%#
+	% Für bündige Literaturangabe ohne hbox Meldungen					%#
+	\setcounter{biburllcpenalty}{7000}									%#
+	\setcounter{biburlucpenalty}{8000}									%#																									%#
 	%\rohead is important otherwise it not works, 						%#
 	% because of default pagestyle from makeidx!						%#
-																		%#
 	\printbibliography													%#
 	\rohead{} 															%#
 	\printindex															%#
