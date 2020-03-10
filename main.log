@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.27)  6 MAR 2020 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.27)  10 MAR 2020 10:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -742,14 +742,14 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 1: section
 1: section
 Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 64.
+ine 69.
 
 ("C:\Users\demisam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrs
 ize12pt.clo"
 File: scrsize12pt.clo 2020/01/24 v3.29 KOMA-Script font size class option (12pt
 )
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 64
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 69
 .
 
 ("C:\Users\demisam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
@@ -771,7 +771,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 64.
+(typearea)              on input line 69.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
@@ -788,7 +788,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 64.
+(typearea)              on input line 69.
 
 ("C:\Users\demisam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
 s.sty"
@@ -910,23 +910,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 
 
 Writing index file main.idx
-
-("C:\Users\demisam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filecontents\fil
-econtents.sty"
-Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
-eX document
-
-
-Package filecontents Warning: This package is obsolete. Disabling it and
-(filecontents)                passing control to the filecontents environment
-(filecontents)                defined by the LaTeX kernel.
-
-)
-
-LaTeX Warning: File `mystyle.ist' already exists on the system.
-               Not generating it from this source.
-
-
+(config/indexdefinition.tex)
 ("C:\Users\demisam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblate
 x.sty"
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
@@ -1245,6 +1229,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count442
 Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -1525,26 +1510,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-] (main.toc
-Overfull \hbox (0.16273pt too wide) detected at line 8
- []\T1/lmr/bx/n/12 viii
- []
-
-[4
+] (main.toc [4
 
 
 ])
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
- (config/headingconfig.tex) [5] (main.lof)
+
+(config/headingconfig.tex) [5] (main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- (config/headingconfig.tex)
-[6
+ (config/headingconfig.tex) [6
 
-] (main.lot)
+]
+(main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
@@ -1554,14 +1535,12 @@ Overfull \hbox (0.16273pt too wide) detected at line 8
 \tf@lol=\write12
 \openout12 = `main.lol'.
 
-
-(config/headingconfig.tex) [8
+ (config/headingconfig.tex) [8
 
 ]
 \openout2 = `content/additional_files/list_of_abbreviations.aux'.
 
-
-(content/additional_files/list_of_abbreviations.tex) [9
+ (content/additional_files/list_of_abbreviations.tex) [9
 
 
 ]
@@ -1720,8 +1699,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  34528 strings out of 481314
- 681011 string characters out of 2907239
- 1512395 words of memory out of 3000000
+ 680861 string characters out of 2907239
+ 1513403 words of memory out of 3000000
  49166 multiletter control sequences out of 15000+200000
  615523 words of font info for 85 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1749,7 +1728,7 @@ c/lm/lmtk10.pfb><C:/Users/demisam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmtt10.pfb><C:/Users/demisam/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/lm/lmtt12.pfb><C:/Users/demisam/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (29 pages, 456011 bytes).
+Output written on main.pdf (29 pages, 456122 bytes).
 PDF statistics:
  547 PDF objects out of 1000 (max. 8388607)
  157 named destinations out of 1000 (max. 500000)
